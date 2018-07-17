@@ -1,0 +1,119 @@
+/*fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Indie+Flower|Rock+Salt');
+
+/*colors*/
+
+/*nav*/
+
+.navbar {
+    padding: 0;
+    margin: 0;
+}
+
+/*introduction*/
+
+h1 {
+    font-size: 56px;
+    font-family: 'Indie Flower', cursive;
+    color: #3333cc;
+     text-align: center;
+
+}
+
+.introduction-container {
+    height: 250px;
+    background-image: url(/assets/photos/Dogs.jpg);
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+
+/*section*/
+
+.training-tip {
+    background-color: #d1d1e0;
+    margin: 20px;
+    padding: 15px;
+    
+}
+
+h2 {
+    color: #3333cc;
+    font-family: 'Rock Salt', cursive;
+    font-size: 36px;
+
+}
+
+h3 {
+    font-family: 'Exo 2', cursive;
+    font-size: 22px;
+}
+
+h4 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 28px;
+}
+
+.training-tip p {
+    font-family: 'Exo 2', cursive;
+    font-size: 18px;
+}
+
+.img-rounded {
+    padding-top: 10px;
+    padding: right 10px;
+    height: 350px;
+    width: auto;
+    vertical-align: right;
+}
+
+.training-tip-picture p {
+    font-family: 'Exo 2', cursive;
+    font-size: 14px;
+}
+
+.img-circle {
+    padding-top: 10px;
+    height: 150px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+ 
+    
+}
+
+.donna p {
+    font-family: 'Exo 2', cursive;
+    font-size: 18px;
+}
+
+.moz p {
+    font-family: 'Exo 2', cursive;
+    font-size: 18px;
+}
+
+
+.neo p {
+    font-family: 'Exo 2', cursive;
+    font-size: 18px;
+}
+
+
+
+/*footer*/
+
+.footer {
+    background-color: #000000;
+    margin: auto;
+    width: auto;
+}
+
+.social-links {
+    font-size: 42px;
+    padding-right: 35px;
+    text-align: right;
+}
