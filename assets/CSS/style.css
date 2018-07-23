@@ -64,7 +64,6 @@ h5 {
 
 /*index*/
 
-
 .training-tip {
     background-color: #d1d1e0;
     padding: 25px;
@@ -108,12 +107,10 @@ h5 {
 
 /*training-tips*/
 
-
-
 .training-tip p {
     font-family: 'Exo 2', cursive;
     font-size: 18px;
-    color:#3333cc;
+    color: #3333cc;
 }
 
 /*about*/
@@ -138,16 +135,22 @@ h5 {
 .donna p {
     font-family: 'Exo 2', cursive;
     font-size: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .moz p {
     font-family: 'Exo 2', cursive;
     font-size: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .neo p {
     font-family: 'Exo 2', cursive;
     font-size: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 
