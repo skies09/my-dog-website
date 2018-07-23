@@ -18,7 +18,7 @@ h1 {
     font-family: 'Indie Flower', cursive;
     color: #3333cc;
     text-align: center;
-    text-decoration: underline;
+    text-shadow: 2px 2px #66ffff;
 
 }
 
@@ -30,51 +30,101 @@ h1 {
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
+    border: 1px solid #000000;
 
 }
 
 /*section*/
 
-.training-tip {
-    background-color: #d1d1e0;
-    margin: 20px;
-    padding: 15px;
-}
-
 h2 {
     color: #3333cc;
     font-family: 'Rock Salt', cursive;
     font-size: 36px;
+    text-decoration: underline;
+    text-shadow: 2px 2px #66ffff;
 }
 
 h3 {
-    font-family: 'Exo 2', cursive;
-    font-size: 22px;
+    color: #3333cc;
+    font-family: 'Rock Salt', cursive;
+    font-size: 36px;
+    text-indent: 35px;
 }
 
 h4 {
     font-family: 'Indie Flower', cursive;
-    font-size: 28px;
+    font-size: 26px;
 }
 
-.training-tip p {
+h5 {
     font-family: 'Exo 2', cursive;
-    font-size: 18px;
+    font-size: 24px;
 }
 
-.img-rounded {
-    padding-top: 10px;
-    padding: right 10px;
-    height: 350px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 
+/*index*/
+
+
+.training-tip {
+    background-color: #d1d1e0;
+    padding: 25px;
+    margin: 25px;
+}
+
+.training-tip-day {
+    background-color: #d1d1e0;
+    padding: 25px;
+    margin: 25px;
+}
+
+.training-tip-day p {
+    font-family: 'Rock Salt', cursive;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-shadow: 2px 2px #66ffff;
+}
+
+.training-tip-picture {
+    padding: 25px;
+    margin-bottom: 50px;
 }
 
 .training-tip-picture p {
     font-family: 'Exo 2', cursive;
     font-size: 14px;
+}
+
+.training-picture {
+    width: 95%;
+    height: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    border: 3px solid #3333cc;
+}
+
+/*training-tips*/
+
+
+
+.training-tip p {
+    font-family: 'Exo 2', cursive;
+    font-size: 18px;
+    color:#3333cc;
+}
+
+/*about*/
+
+.pack-heading {
+    font-size: 56px;
+    font-family: 'Indie Flower', cursive;
+    color: #000000;
+    text-align: center;
+    border: 5px solid #3333cc;
+    margin-top: 25px;
 }
 
 .img-circle {
@@ -83,13 +133,6 @@ h4 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.training-tip-video {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
 
 .donna p {
@@ -108,12 +151,55 @@ h4 {
 }
 
 
+
+/*video*/
+
+video {
+    width: 95%;
+    height: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+
+.training-tip-video p {
+    font-family: 'Exo 2', cursive;
+    font-size: 14px;
+}
+
+/*contact page*/
+
+#fullname {
+    margin-bottom: 15px;
+    border: 2px solid black;
+}
+
+#emailaddress {
+    margin-bottom: 20px;
+    border: 2px solid black
+}
+
+#problem {
+    margin-bottom: 20px;
+    border: 2px solid black
+}
+
+
 /*footer*/
 
-.footer {
+footer {
     background-color: #000000;
     margin: auto;
-    width: auto;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+
+.copyright p {
+    color: white;
+    padding-left: 20px;
 }
 
 .social-links {
