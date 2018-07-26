@@ -53,6 +53,8 @@ The table below shows what is includes in the section content on each page
 
 Contains the copyright of the websites to the behaviorist along with the social links to the behaviorists social media.
 
+*Please note the facebook and twitter are empty links until set up.*
+
 
 
 
