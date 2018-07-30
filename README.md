@@ -86,7 +86,7 @@ Contains the copyright of the websites to the behaviorist along with the social 
 * Chrome
 * Safari
 * Firefox
-* Modzilla
+* Mozilla
 
 ###### Devices tested on
 * iphone
